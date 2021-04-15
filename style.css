@@ -1,0 +1,36 @@
+<style>
+
+        body {
+            background-color: #9DC3C2;            
+        }
+
+        h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        p {
+            font-family: monospace;
+        }
+    
+        #link_skills {
+            background-color: #D0EFB1;
+        }
+
+        #profile_infos {
+            background-color: #B3D89C;
+        }
+
+        #list_skills {
+            background-color: #9DC3C2;
+        }
+
+        #links {
+            background-color: #77A6B6;
+        }
+
+        #style_infos {
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+    </style>
