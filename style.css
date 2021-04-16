@@ -9,10 +9,6 @@
             font-size: 60px;
         }
 
-        h2 {
-
-        }
-
         p {
             color: #264653;
             font-family: 'Karantina', serif;
@@ -24,7 +20,6 @@
             font-size: 30px;
             font-weight: bold;
         }
-
         
         .bottom {
             background-color: #457b9d;
@@ -35,12 +30,6 @@
             padding: 5px;
         }
 
-        .left-align {
-            text-align: left;
-        }
-        .right-align {
-            text-align: right;
-        }
         .center-align {
             text-align: center;
         }
