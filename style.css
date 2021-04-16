@@ -1,32 +1,65 @@
         body {
-            background-color: #9DC3C2;            
+            background-color: #2A9D8F;            
         }
 
         h1 {
-            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #264653;
+            font-family: 'Lobster', serif;
+            line-height: 40px;
+            font-size: 60px;
+        }
+
+        h2 {
+
         }
 
         p {
-            font-family: monospace;
+            color: #264653;
+            font-family: 'Karantina', serif;
+            font-size: 28px;
         }
     
-        #link_skills {
-            background-color: #D0EFB1;
+        h2, h3 {
+            color: #1d3557;
+            font-size: 30px;
+            font-weight: bold;
         }
 
-        #profile_infos {
-            background-color: #B3D89C;
+        
+        .bottom {
+            background-color: #457b9d;
+            color: #1d3557;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            padding: 5px;
         }
 
-        #list_skills {
-            background-color: #9DC3C2;
+        .left-align {
+            text-align: left;
+        }
+        .right-align {
+            text-align: right;
+        }
+        .center-align {
+            text-align: center;
         }
 
-        #links {
-            background-color: #77A6B6;
+        .center-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 15px;
         }
 
-        #style_infos {
+        .has-skills {
+            color: #264653;
+            font-size: 24px;
+        }
+
+        .hasnt-skills {
+            color: #264653;
             font-style: italic;
-            text-decoration: underline;
+            text-decoration:line-through;
+            font-size: 24px;
         }
