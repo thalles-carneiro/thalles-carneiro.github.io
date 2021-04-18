@@ -1,10 +1,97 @@
-        body {
-            background-color: #2A9D8F;            
+        * {
+            margin: 0;
+        }
+        
+        .skills-button {
+            background-color: #88D498;
+            padding: 15px;
+        }
+
+        div.skills-button a {
+            background-color: #457b9d;
+            color: #1d3557;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            padding: 5px;                       
+        }
+        
+        .profile-header {
+            background-color: #2A9D8F;
+            padding: 30px;
+        }
+        
+        .profile-name {
+            margin: 15px auto;           
+        }
+        
+        div.profile-name h1 {
+            font-size: 70px;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .profile-infos  {
+            display: inline-block;
+            padding: 20px;
+            margin-top: 15px;
+        }
+
+        .profile-img {
+            position: absolute; 
+        }
+
+        div.profile-img img {
+            margin: 0 auto;
+            width: 275px;
+            padding: 5px;
+            border-radius: 50% 50%;
+            background-color: azure;            
+        }
+        
+
+        .profile-text {
+            margin-left: 320px;
+        }
+
+        .profile-skills {
+            background-color: #84DCCF;
+            padding: 30px 45px;         
+        }
+
+        div.skills li:nth-of-type(odd) {
+            font-weight: bold;
+        }
+
+        .profile-soft-skills {
+            width: 45%;
+            display: inline-block;
+        }
+        
+        .profile-hard-skills {
+            width: 45%;
+            display: inline-block;
+        }
+                
+        .footer-button {
+            background-color: #59C3C3;
+            padding: 15px;
+        }
+
+        div.footer-button a {
+            background-color: #457b9d;
+            color: #1d3557;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            padding: 5px;
         }
 
         h1 {
             color: #264653;
-            font-family: 'Lobster', serif;
+            font-family: 'Montserrat', sans-serif;
             line-height: 40px;
             font-size: 60px;
         }
@@ -15,40 +102,23 @@
             font-size: 28px;
         }
     
-        h2, h3 {
+        h3 {
             color: #1d3557;
             font-size: 30px;
             font-weight: bold;
+            text-decoration: underline;
+        }
+
+        li {
+            color: #1d3557;
+            font-size: 24px;
         }
         
-        .bottom {
-            background-color: #457b9d;
-            color: #1d3557;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 5px;
-            padding: 5px;
-        }
-
-        .center-align {
-            text-align: center;
-        }
-
-        .center-img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 15px;
-        }
-
         .has-skills {
-            color: #264653;
-            font-size: 24px;
+            text-transform: uppercase;
         }
 
         .hasnt-skills {
             color: #264653;
             font-style: italic;
-            text-decoration:line-through;
-            font-size: 24px;
         }

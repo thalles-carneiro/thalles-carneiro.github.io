@@ -1,67 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Thalles de Oliveira Carneiro</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Karantina&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Thalles de Oliveira Carneiro</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Karantina&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    </head>
 
 <body>
-<section>
-    <a class="bottom" href="#soft-skills">Soft Skills</a>
-    <a class="bottom" href="#hard-skills">Hard Skills</a>
-<hr>
-</section>
-
-
-<section id="profile_infos">
-    <h1 class="center-align">Thalles de Oliveira Carneiro</h1>
-    <img id="thalles" class="center-img" src="profile_picture.jpg" alt="Foto de Thalles Carneiro" width="250px">
-    <p class="center-align">Estudante de Desenvolvimento Web na Trybe | Bacharel em Engenharia Elétrica pela UERJ</p>
-    <p class="center-align" id="style_infos">Brasileiro | Guarapari-ES</p>
     
-    <h2>Descrição:</h2>
-    <p>Sempre me interessei pelo novo, conhecer novas culturas e ampliar meus horizontes. E durante minha graduação fiz um intercâmbio de um ano estudando na Universidade de Tecnologia e Economia de Budapeste, na Hungria. Essa experiência incrível me fez compreender ainda mais a importância de se manter em movimento diante do mundo altamente globalizado atualmente.</p>
-    <p>Decidi recentemente embarcar em uma nova jornada, como estudante de Desenvolvimento Web na Trybe, em busca de realização pessoal, me sentir imerso no mundo tomado pela internet e tecnologia. Tenho plena certeza da importância que é saber cooperar, buscando conhecimento naquele que sabe mais e entregando conhecimento aquele que sabe um pouco menos, essa troca de experiências só agrega para todos.</p>
-    <p>Estou focado em novos desafios, extremamente disposto a aprender e dar o meu melhor com total comprometimento.</p>
-    <a class="bottom" href="https://github.com/thalles-carneiro" target="_blank">GitHub</a>
-<hr>
-</section>
+<div class="skills-button button">
+    <a href="https://github.com/thalles-carneiro" target="_blank">GitHub</a>
+    <a href="#soft-skills">Soft Skills</a>
+    <a href="#hard-skills">Hard Skills</a>
+</div> 
+    
+<div id="thalles" class="profile-header">
+    <div class="profile-name">
+        <h1>Thalles de Oliveira Carneiro</h1>
+    </div>
+    <div class="profile-infos">
+            <div class="profile-img">
+                <img src="profile_picture.jpg" alt="Foto de Thalles Carneiro" width="250px">
+            </div>
+            <div class="profile-text">
+                <div class="profile-personal-infos">
+                    <p>Estudante de Desenvolvimento Web na Trybe | Bacharel em Engenharia Elétrica pela UERJ</p>
+                    <p>Brasileiro | Guarapari-ES</p>
+                    <br>
+                </div>  
+                <div class="profile-description">
+                    <p>Sempre me interessei pelo novo, conhecer novas culturas e ampliar meus horizontes. E durante minha graduação fiz um intercâmbio de um ano estudando na Universidade de Tecnologia e Economia de Budapeste, na Hungria. Essa experiência incrível me fez compreender ainda mais a importância de se manter em movimento diante do mundo altamente globalizado atualmente.</p>
+                    <br>
+                    <p>Decidi recentemente embarcar em uma nova jornada, como estudante de Desenvolvimento Web na Trybe, em busca de realização pessoal, me sentir imerso no mundo tomado pela internet e tecnologia. Tenho plena certeza da importância que é saber cooperar, buscando conhecimento naquele que sabe mais e entregando conhecimento aquele que sabe um pouco menos, essa troca de experiências só agrega para todos.</p>
+                    <br>
+                    <p>Estou focado em novos desafios, extremamente disposto a aprender e dar o meu melhor com total comprometimento.</p>
+                </div>
+            </div>
+        </div>
+</div>
 
-<section>
-    <h3 id="soft-skills">Soft Skills:</h3>
-    <ul>
-        <li  class="has-skills">Comprometimento</li>
-        <li class="has-skills">Resiliência</li>
-        <li class="has-skills">Inteligência Emocional</li>
-        <li class="has-skills">Colaboração</li>
-        <li class="has-skills">Pensamento Crítico</li>
-        <li class="hasnt-skills">Comunicação</li>
-        <li class="hasnt-skills">Liderança</li>
-        <li class="hasnt-skills">Criatividade</li>
-    </ul>
-
-    <h3 id="hard-skills">Hard Skills:</h3>
-    <ul>
-        <li class="has-skills">Git</li>
-        <li class="has-skills">HTML</li>
-        <li class="has-skills">CSS</li>
-        <li class="hasnt-skills">JavaScript</li>
-        <li class="hasnt-skills">React</li>
-        <li class="hasnt-skills">SQL</li>
-        <li class="hasnt-skills">NodeJS</li>
-        <li class="hasnt-skills">Python</li>
-    </ul>
-<hr>
-</section>
-
-<section>
-    <a class="bottom" href="#thalles">Thalles</a>
-    <a class="bottom" href="https://blog.betrybe.com/" target="_blank">Blog da Trybe</a>
-    <a class="bottom" href="https://filipedeschamps.com.br/" target="_blank">Filipe Deschamps</a>
-</section>
-
+<div class="profile-skills">
+    <div class="skills">
+        <div class="profile-soft-skills">
+            <h3 id="soft-skills">Soft Skills:</h3>
+            <ul>
+                <br>
+                <li class="has-skills">Comprometimento</li>
+                <li class="has-skills">Resiliência</li>
+                <li class="has-skills">Inteligência Emocional</li>
+                <li class="has-skills">Colaboração</li>
+                <li class="has-skills">Pensamento Crítico</li>
+                <li class="hasnt-skills">Comunicação</li>
+                <li class="hasnt-skills">Liderança</li>
+                <li class="hasnt-skills">Criatividade</li>
+            </ul>
+        </div>
+        
+        <div class="profile-hard-skills">
+            <h3 id="hard-skills">Hard Skills:</h3>
+            <ul>
+                <br>
+                <li class="has-skills">Git</li>
+                <li class="has-skills">HTML</li>
+                <li class="has-skills">CSS</li>
+                <li class="hasnt-skills">JavaScript</li>
+                <li class="hasnt-skills">React</li>
+                <li class="hasnt-skills">SQL</li>
+                <li class="hasnt-skills">NodeJS</li>
+                <li class="hasnt-skills">Python</li>
+            </ul>
+        </div>
+    </div>
+</div>
+    
+<div class="footer-button">
+    <a href="#thalles">Thalles</a>
+    <a href="https://blog.betrybe.com/" target="_blank">Blog da Trybe</a>
+    <a href="https://filipedeschamps.com.br/" target="_blank">Filipe Deschamps</a>
+</div>
+    
 </body>
 </html>
