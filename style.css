@@ -60,18 +60,23 @@
             padding: 30px 45px;         
         }
 
+        .skills {
+            text-align: center;
+        }
+
         div.skills li:nth-of-type(odd) {
             font-weight: bold;
         }
 
         .profile-soft-skills {
-            width: 45%;
             display: inline-block;
+            text-align: left;
         }
         
         .profile-hard-skills {
-            width: 45%;
             display: inline-block;
+            text-align: left;
+            margin-left: 10%;
         }
                 
         .footer-button {
